@@ -19,7 +19,7 @@ const MovieSlider = (props) => {
                 <div>{item.index}</div>
                 <h3 className="card-header">{item.name}</h3>
                     <div className="card-body">
-                    <h5 className="card-title">Special title treatment</h5>
+                    <h5 className="card-title">BOOBS</h5>
                     <h6 className="card-subtitle text-muted">Support card subtitle</h6>
                     </div>
                 <img src={item.poster} alt={item.name} />    
