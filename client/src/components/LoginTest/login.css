@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    font-weight: bold;
+    font-size: 35px;
+    color:rgb(235, 27, 27);
+    margin: 10px;
+    margin-left: 20px;
+    
+}
+
+.base-container {
+    margin-top: 250px;
+    text-align: center;
+}
+
+
+/* .footer {
+    padding: 10px;
+}
+.form{
+    text-align:center;
+}
+.form-group {
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    margin-left: 20px;
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.loginbtn {
+    color: red;
+    background-color: blue;
+    font-size: 20px;
+}
+
+.logintestonly {
+    color: red;
+    
+    font-size: 20px;
+}
+
+.username {
+    text-align: center;
+}
+
+.password {
+    text-align: center;
+} */
+
+
+.loginpage {
+    text-align: center;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+.username {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.password {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.submit {
+    text-align: center;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.logintest {
+    text-align: center;   
+    border-style: solid;
+    border-width:3px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; 
+    background:green;
+    width:335px;
+    padding:20px;
+    /*float:left; remove this*/
+    margin:15px;
+ 
+    /*add this*/ 
+    display:inline-block;
+    position:relative;
+}
+
+.login-btn {
+    text-align: center;   
+    border-style: solid;
+    border-width:3px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px; 
+    background:rgb(255, 136, 0);
+    width:335px;
+    padding:20px;
+    /*float:left; remove this*/
+    margin:15px;
+ 
+    /*add this*/ 
+    display:inline-block;
+    position:relative;
+}
+
+.form-group {
+    text-align: center;   
+    /* border-style: solid;
+    border-width:3px; */
+    /* border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;  */
+    /* background:rgb(0, 208, 255); */
+    width:335px;
+    padding:20px;
+    /*float:left; remove this*/
+    margin:15px;
+ 
+    /*add this*/ 
+    display:inline-block;
+    position:relative;
+
+}
+
+.un {
+    color: rgb(34, 255, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+.title-box {
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.title {
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.alert-container {
+    width: 400px;
+    margin: auto;
+}
+.form-wrap {
+    display: block;
+    text-align: center;
+    align-content: unset;
+}
+
+.btn {
+    float: none;
+}

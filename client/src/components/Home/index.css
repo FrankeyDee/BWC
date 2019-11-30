@@ -1,0 +1,102 @@
+.background {
+    opacity: 0.1;
+}
+
+.cardy {
+    width: 350px;
+    text-align: center;
+    margin: 10px;
+
+} 
+
+img {
+    height: 200px;
+    width: 10rem;
+    vertical-align: baseline;
+    object-fit: fill;
+}
+
+.card-text {
+    padding-top: 5%;
+}
+
+.card-container {
+    display: flex;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap;  */
+    overflow-x: auto;
+    margin-left: .5%;
+    margin-right: .5%;
+}
+
+.recent {
+   clear: left; 
+   padding-top: 80px;
+   margin-top: 40px;
+   border-top: 40px;
+
+}
+
+
+.intro {
+    width: 750px;
+    height: 450px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border-bottom: 3px solid rgba(255,255,255,0.16);
+    padding: 60px 16px;
+    margin-bottom: 40px;
+}
+
+#wordart {
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    float: left;
+    margin: 30px;
+    z-index: 2;
+    
+}
+
+.banner {
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 1.5rem + 0px);
+    padding: 0.75rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 18;
+    color: black;
+    background-color: #f7f7f9;
+    background-clip: padding-box;
+    border: 2px solid black;
+    border-radius: 0;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.dropdown {
+    width: -webkit-fill-available;
+    padding-bottom: 5px;
+}
+
+.navbar {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
