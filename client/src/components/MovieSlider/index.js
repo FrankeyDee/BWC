@@ -7,35 +7,32 @@ const MovieSlider = (props) => {
     return (
         <div className="carousel-container">
         <CarouselProvider className="carousel1"
-        naturalSlideHeight={300}
-        naturalSlideWidth={400}
-        totalSlides={20}
+        naturalSlideHeight={200}
+        naturalSlideWidth={10}
+        totalSlides={15}
         visibleSlides={1}>
 
-            <Slider infinite="false" className="slider1">
-            
-            {props.movies.map((item, index) => (
-                <Slide className="card mb-3" key={item.name} index={index}>
-                <div>{item.index}</div>
-                <h3 className="card-header">{item.name}</h3>
-                    <div className="card-body">
-                    <h5 className="card-title">BOOBS</h5>
-                    <h6 className="card-subtitle text-muted">Support card subtitle</h6>
+            <Slider infinite="false">
+                <div className="card-container">
+                {props.movies.map((item, index) => (            
+                <Slide className="card border-primary mb-3 cardy" key={item.name} index={index} style={{maxWidth: '20rem'}}>
+                    <div>{item.index}</div>
+                    <div className="card-header">{item.name}
                     </div>
-                <img src={item.poster} alt={item.name} />    
-                <div className="card-body">
-                <p className="card-text">{item.overview}</p>
-                </div>
-                <ButtonBack className="backBtn btn-outline-secondary">&lt;&lt;</ButtonBack>
-                    { props.isSearch ? <button onClick={() => props.saveHandler(item)}>Save</button> : <button onClick={() => props.deleteHandler(item._id)}>Delete</button> }
-                <ButtonNext className="btn-outline-secondary">&gt;&gt;</ButtonNext>
+                    <div className="card-body">
+                        <img src={item.poster} />
+                        <p className="overview card-text">{item.overview}</p>
+                    </div>    
                 </Slide>
                 ))}
+                </div>
             </Slider>
-        </CarouselProvider>
-        </div>
+      </CarouselProvider>
+      </div>
     );
 }; 
 
 export default MovieSlider;
+
+
 

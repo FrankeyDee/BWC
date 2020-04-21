@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import API from "../ApiSaveShows/API";
 import Banner from "./banner";
 import MovieSlider from "../MovieSlider";
+import "./index.css";
 // import About from "./about";
 
 class Home extends Component {
@@ -54,7 +55,9 @@ getSavedShows = () => {
         return (
             <Fragment>
                 <Banner loadMovies={this.loadMovies} />
+                <div className="slider-container">
                 <MovieSlider movies={this.state.movies} saveHandler={this.handleShowSave} isSearch />
+                </div>
                 {/* <About /> */}
             </Fragment>
         );

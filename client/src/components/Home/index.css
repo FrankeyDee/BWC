@@ -100,3 +100,7 @@ img {
     text-transform: uppercase;
     font-weight: 500;
 }
+
+.slider-container {
+    align-content: center;
+}
